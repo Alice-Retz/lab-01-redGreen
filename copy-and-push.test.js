@@ -1,4 +1,4 @@
-import copyAndPush from './copy-and-push';
+import copyAndPush from './copy-and-push.js';
 
 describe('copyAndPush', () => {
     it('should add add 4 to the end of the array', () => {
