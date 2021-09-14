@@ -2,7 +2,7 @@ import getName from './get-name.js';
 
 describe('getName', () => {
     it('returns the name spot', () => {
-        const spot = { name: 'spot', age: 5, weight: '20 lbs' };
+        const spot = getName({ name: 'spot', age: 5, weight: '20 lbs' });
         expect(spot).toEqual('spot');
     });
 
